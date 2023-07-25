@@ -11,6 +11,8 @@ public class Main {
         l[2] = new Livro("livro2", "zé", 200, p[0]);
 
         l[1].abrir();
+        l[1].folear(1);
+        l[1].voltarPag();
 
         System.out.println(l[1].detalhes());
     }

@@ -14,27 +14,24 @@ public class Livro implements Publicacao{
     public void folear(int p){
         if(this.aberto == true){
             this.pagAtual = p;
-        }else {
-            System.out.println("impossivel folear");
+            if(p > totPag){
+                this.pagAtual = 0;
+            }
         }
     }
     public void avancarPag(){
-        if(this.aberto){
-            this.pagAtual = this.pagAtual +1;
-        }else if (this.pagAtual == totPag){
-            System.out.println("impossivel avançar ");
-        }else {
-            System.out.println("impossivel avançar");
+        if(this.pagAtual < this.totPag) {
+            this.pagAtual++;
+        }else{
+            this.pagAtual = totPag;
         }
     }
     public void voltarPag(){
-        if(this.aberto){
-            this.pagAtual = this.pagAtual -1;
-        }else if (pagAtual < 1){
-            System.out.println("impossivel voltar");
-        }else {
-            System.out.println("impossivel voltar");
-        }
+       if(this.pagAtual > 0){
+           this.pagAtual--;
+       }else {
+           this.pagAtual = 0;
+       }
     }
 
     public String getTitulo() {
