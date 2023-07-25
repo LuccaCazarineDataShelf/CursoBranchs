@@ -1,7 +1,7 @@
 public class Pessoa{
-        public String nome;
-        public String sexo;
-        public int idade;
+        private String nome;
+        private String sexo;
+        private int idade;
 
         public String getNome(){
             return this.getNome();
@@ -23,6 +23,12 @@ public class Pessoa{
         }
 
         public void fazerAniversario(){
-
+            this.idade = this.idade + 1;
         }
+
+    public Pessoa(String nome, String sexo, int idade) {
+        this.nome = nome;
+        this.sexo = sexo;
+        this.idade = idade;
+    }
 }
