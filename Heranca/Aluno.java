@@ -2,8 +2,6 @@ public class Aluno extends Pessoa2{
     private int matricula;
     private String curso;
 
-    // métodos
-
     public void cancelarMatricula(){
         System.out.println("Matricula cancelada!");
     }
@@ -11,8 +9,6 @@ public class Aluno extends Pessoa2{
     public String toString() {
         return "Aluno: " + getNome();
     }
-
-    //getters and setters
 
 
     public int getMatricula() {

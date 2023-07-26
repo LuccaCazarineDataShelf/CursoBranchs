@@ -9,8 +9,6 @@ public class Pessoa2 {
         return "Pessoa " + getNome();
     }
 
-    //getters and setters
-
 
     public String getNome() {
         return nome;
