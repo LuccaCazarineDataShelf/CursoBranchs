@@ -4,11 +4,13 @@ public class App {
         Aluno a1 = new Aluno();
         Professor pr1 = new Professor();
         Funcionario f1 = new Funcionario();
+        Visitante v1 = new Visitante();
 
         p1.setNome("zé");
         a1.setNome("jao");
         pr1.setNome("maroc");
         f1.setNome("pao");
+        v1.setNome("Mauro");
 
         System.out.println(p1.toString());
         System.out.println(a1.toString());
