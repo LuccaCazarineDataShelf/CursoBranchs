@@ -3,13 +3,17 @@ public class Aluno extends Pessoa2{
     private String curso;
 
     public void cancelarMatricula(){
+
         System.out.println("Matricula cancelada!");
+    }
+    public void pagarMensalidade(){
+        System.out.println("Mensalidade paga");
     }
 
     public String toString() {
+
         return "Aluno: " + getNome();
     }
-
 
     public int getMatricula() {
         return matricula;
