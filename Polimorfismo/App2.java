@@ -20,6 +20,15 @@ public class App2 {
         a1.alimentar();
         a1.emitirSom();
         System.out.println("O peso é: " + a1.getPeso());
+
+        Canguru c = new Canguru();
+        Cobra k = new Cobra();
+        Tartaruga t = new Tartaruga();
+        GoldFish g = new GoldFish();
+        Arara ar = new Arara();
+
+        c.locomover();
+        k.locomover();
     }
 
 }
