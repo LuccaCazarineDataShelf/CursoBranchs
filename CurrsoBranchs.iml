@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Heranca" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/out" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Heranca2" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Polimorfismo" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
