@@ -12,6 +12,14 @@ public class App2 {
         m1.alimentar();
         m1.emitirSom();
         System.out.printf("Cor do pelo é " + m1.getCorPelo());
+
+        a1.setPeso(5.5f);
+        a1.setMembros(2);
+        a1.setIdade(3);
+        a1.setCorPena("Azul");
+        a1.alimentar();
+        a1.emitirSom();
+        System.out.println("O peso é: " + a1.getPeso());
     }
 
 }
